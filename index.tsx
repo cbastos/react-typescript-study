@@ -1,1 +1,1 @@
-import './composition_strategies/known_children_factories';
+import './composition_strategies/high_order_components';
