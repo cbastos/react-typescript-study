@@ -1,1 +1,1 @@
-import './composition_strategies/high_order_components';
+import './composition_strategies/recognized_children';
