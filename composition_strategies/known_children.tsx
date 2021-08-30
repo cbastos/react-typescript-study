@@ -1,6 +1,7 @@
 import React from 'react';
+import { render } from 'react-dom';
 
-export const App: React.FC = () => {
+const App: React.FC = () => {
   return (
     <div>
       <TopBar />
@@ -24,3 +25,5 @@ const TopBar: React.FC = () => {
     <div style={{ width: '100%', border: '1px solid black' }}>Top bar</div>
   );
 };
+
+render(<App />, document.getElementById('root'));
